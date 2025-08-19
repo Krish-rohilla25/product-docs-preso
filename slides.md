@@ -13,9 +13,7 @@ Welcome to the interactive product documentation presentation.
 
 # Contact Information ✅
 
-My email (required):
-
-24f2003053@ds.study.iitm.ac.in
+My email: **24f2003053@ds.study.iitm.ac.in**
 
 ---
 
@@ -36,9 +34,10 @@ This slide uses a custom theme.
 
 ---
 
-# Background Image Example
+<!-- _backgroundImage: url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80") -->
+<!-- _class: lead -->
 
-![bg](https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80)
+# Background Image Example
 
 This slide demonstrates the use of a background image.
 
