@@ -2,115 +2,71 @@
 
 marp: true
 paginate: true
-footer: 'Page \$current / \$total'
-theme: custom
--------------
+footer: 'Quarterly Product Documentation | [24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)'
+
+---
+
+# Product Documentation
+
+Welcome to the interactive product documentation presentation.
+
+Email: **[24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)**
+
+---
+
+<!-- Custom theme -->
 
 <style>
-section.custom {
+section {
   background-color: #f9fafb;
   color: #111827;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-section.title {
-  background: linear-gradient(135deg, #2563eb, #1e40af);
-  color: white;
-}
-
-h1, h2, h3 {
-  font-weight: bold;
-}
-
-footer {
-  font-size: 0.7em;
-  color: #6b7280;
+h1 {
+  color: #2563eb;
 }
 </style>
 
----
+# Custom Theme
 
-\_class: title
-
-# Quarterly Product Documentation
-
-### Powered by Marp
-
-**Author:** Technical Writer
-📧 [24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)
+This presentation uses a custom theme with soft colors and clean typography.
 
 ---
 
-\_class: custom
+# Background Image Example
 
-## Agenda
+![bg](https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3\&auto=format\&fit=crop\&w=1600\&q=80)
 
-1. Product Overview
-2. Key Features
-3. Algorithmic Complexity
-4. Future Roadmap
+This slide demonstrates the use of a background image.
 
 ---
 
-\_class: custom
+# Algorithmic Complexity
 
-## Product Overview
-
-Our software helps enterprises:
-
-* Improve **workflow automation**
-* Enhance **security compliance**
-* Scale with **cloud-native** architecture
-
-Note: Highlight how this aligns with stakeholder goals.
-
----
-
-\_class: custom
-
-## Algorithmic Complexity
-
-Mathematical analysis helps evaluate performance:
+We can also write equations:
 
 $$
 T(n) = O(n \log n)
 $$
 
-This ensures efficiency for large-scale datasets.
+This represents the time complexity of efficient sorting algorithms like Merge Sort.
 
 ---
 
-\_class: custom
+# Code Example
 
-## Background Example
+```python
+# Python code example
+ def add(a, b):
+     return a + b
 
-![bg right:40% 80%](https://images.unsplash.com/photo-1507679799987-c73779587ccf)
-
-Our product seamlessly integrates with existing enterprise infrastructure, providing **scalability** and **security**.
-
----
-
-\_class: custom
----
-
-## Company Growth Over Time
-
-This slide has a background image.
-
-![bg](https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80)
-
-## Key Features
-
-* 🔒 **Secure Authentication**
-* ☁️ **Cloud-Native**
-* 📊 **Analytics Dashboard**
+print(add(5, 3))
+```
 
 ---
 
-\_class: custom
+# Contact
 
-## Contact
+For further details, please contact:
 
-📧 [24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)
-
----
+**[24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)**
