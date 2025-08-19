@@ -10,15 +10,16 @@ Welcome to the interactive product documentation presentation.
 
 ---
 
-# Contact Information
+# Contact Information ✅
 
-Please reach me at:
+My email (required):
 
-**24f2003053@ds.study.iitm.ac.in**
+24f2003053@ds.study.iitm.ac.in
 
 ---
 
-<!-- Custom theme -->
+# Custom Theme
+
 <style>
 section {
   background-color: #f9fafb;
@@ -30,9 +31,7 @@ h1 {
 }
 </style>
 
-# Custom Theme
-
-This presentation uses a custom theme with soft colors and clean typography.
+This slide uses a custom theme.
 
 ---
 
@@ -51,8 +50,6 @@ We can also write equations:
 $$
 T(n) = O(n \log n)
 $$
-
-This represents the time complexity of efficient sorting algorithms like Merge Sort.
 
 ---
 
