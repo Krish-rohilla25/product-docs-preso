@@ -1,5 +1,6 @@
 ---
 marp: true
+theme: default
 paginate: true
 footer: 'Quarterly Product Documentation'
 ---
