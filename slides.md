@@ -1,146 +1,109 @@
 ---
 
 marp: true
-math: katex
 paginate: true
-footer: 'Page \$current / \$total — [24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)'
+footer: 'Page \$current / \$total'
 theme: custom
 -------------
 
 <style>
-:root { --accent: #0ea5e9; --muted: #6b7280; }
-/* Custom Marp theme */
-@theme custom {
-  section { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif; }
-  h1, h2, h3 { color: var(--accent); letter-spacing: .3px; }
-  code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
-  section.lead { justify-content:center; align-items:center; text-align:center; }
-  section.invert { background:#0b1220; color:#eef2ff; }
-  .pill { padding:.2em .65em; border-radius:9999px; background:var(--accent); color:white; font-weight:600; }
-  .muted { color: var(--muted); }
+section.custom {
+  background-color: #f9fafb;
+  color: #111827;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
-/* Extra slide polish */
-section { padding: 64px; }
-img[alt~="bg"] { opacity: .18; }
+section.title {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.7em;
+  color: #6b7280;
+}
 </style>
 
-<!-- _class: lead -->
+---
 
-# **Product Documentation**
+\_class: title
 
-### Maintainable with Marp + Git
+# Quarterly Product Documentation
 
-**Author:** Krish Rohilla
-**Email:** [24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)
+### Powered by Marp
 
-<span class="pill">Marp</span> <span class="muted">Markdown → HTML/PDF/PPTX</span>
+**Author:** Technical Writer
+📧 [24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)
 
 ---
 
-## Why Marp for Docs Presentations?
+\_class: custom
 
-* Single source: **Markdown** in Git for easy reviews & diffs
-* Export to **HTML, PDF, PPTX** with marp-cli
-* Custom theming via CSS (**this deck uses a custom theme**)
-* Page numbers via `paginate: true` & `footer`
-* KaTeX math for algorithms and formulas
+## Agenda
 
----
-
-<!-- _class: invert -->
-
-<!-- _backgroundImage: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1600&auto=format&fit=crop') -->
-
-<!-- _backgroundSize: cover -->
-
-<!-- _backgroundPosition: center -->
-
-# Background Image Slide
-
-Use slide directives for backgrounds without leaving Markdown.
-
-**Contact:** [24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)
+1. Product Overview
+2. Key Features
+3. Algorithmic Complexity
+4. Future Roadmap
 
 ---
 
-## Custom Styling via Directives
+\_class: custom
 
-* Slide classes: `<!-- _class: invert -->` (see previous slide)
-* Backgrounds: `<!-- _backgroundImage: url('...') -->`
-* Per‑slide footer: `<!-- _footer: 'Page $current — Docs' -->`
-* Accent UI: <span class="pill">pill badge</span> using custom theme CSS
+## Product Overview
 
----
+Our software helps enterprises:
 
-## Math: Algorithmic Complexity
+* Improve **workflow automation**
+* Enhance **security compliance**
+* Scale with **cloud-native** architecture
 
-We can derive the closed form for a simple nested loop:
-
-$T(n) = \sum_{i=1}^{n} i = \frac{n(n+1)}{2} = O(n^2)$
-
-And for a divide-and-conquer recurrence with the Master Theorem:
-
-$T(n) = 2\,T\!\left(\frac{n}{2}\right) + n \;\Rightarrow\; T(n) = O(n\log n)$
+Note: Highlight how this aligns with stakeholder goals.
 
 ---
 
-## Code Snippet (fenced code block)
+\_class: custom
 
-```python
-from dataclasses import dataclass
+## Algorithmic Complexity
 
-@dataclass
-class Feature:
-    name: str
-    done: bool = False
+Mathematical analysis helps evaluate performance:
 
-features = [Feature("Export to HTML", True), Feature("Export to PDF"), Feature("Theme CSS", True)]
-print("Planned:", ", ".join(f.name for f in features if not f.done))
-```
+$$
+T(n) = O(n \log n)
+$$
 
-Notes:
-
-* Works across HTML/PDF/PPTX exports
-* Syntax highlighting depends on the chosen renderer/theme
+This ensures efficiency for large-scale datasets.
 
 ---
 
-## Build & Export (CLI)
+\_class: custom
 
-```bash
-# Install CLI (Node.js required)
-npm install -g @marp-team/marp-cli
+## Background Example
 
-# Live preview
-marp -s .
+![bg right:40% 80%](https://images.unsplash.com/photo-1507679799987-c73779587ccf)
 
-# Export formats
-marp slides.md --html --allow-local-files           # HTML
-marp slides.md --pdf --allow-local-files             # PDF
-marp slides.md --pptx --allow-local-files            # PowerPoint
-```
-
-The Markdown source (`slides.md`) stays the single source of truth in Git.
+Our product seamlessly integrates with existing enterprise infrastructure, providing **scalability** and **security**.
 
 ---
 
-## Repository Layout
+\_class: custom
 
-```
-📦 product-docs-preso
-├─ slides.md            # ← This Marp deck (single source)
-├─ README.md            # How to build/export
-└─ assets/
-   └─ bg.jpg            # Optional local background(s)
-```
+## Key Features
 
-*Pro tip:* Use `?v=1`, `?v=2`, etc., when viewing the raw file on GitHub Pages/Raw to bust caches.
+* 🔒 **Secure Authentication**
+* ☁️ **Cloud-Native**
+* 📊 **Analytics Dashboard**
 
 ---
+
+\_class: custom
 
 ## Contact
 
-For questions, reach out at **[24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)**
+📧 [24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)
 
-Thank you!
+---
