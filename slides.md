@@ -1,21 +1,24 @@
 ---
-
 marp: true
 paginate: true
-footer: 'Quarterly Product Documentation | [24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)'
-
+footer: 'Quarterly Product Documentation'
 ---
 
 # Product Documentation
 
 Welcome to the interactive product documentation presentation.
 
-Email: **[24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)**
+---
+
+# Contact Information
+
+Please reach me at:
+
+**24f2003053@ds.study.iitm.ac.in**
 
 ---
 
 <!-- Custom theme -->
-
 <style>
 section {
   background-color: #f9fafb;
@@ -35,7 +38,7 @@ This presentation uses a custom theme with soft colors and clean typography.
 
 # Background Image Example
 
-![bg](https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3\&auto=format\&fit=crop\&w=1600\&q=80)
+![bg](https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80)
 
 This slide demonstrates the use of a background image.
 
@@ -57,16 +60,7 @@ This represents the time complexity of efficient sorting algorithms like Merge S
 
 ```python
 # Python code example
- def add(a, b):
-     return a + b
+def add(a, b):
+    return a + b
 
 print(add(5, 3))
-```
-
----
-
-# Contact
-
-For further details, please contact:
-
-**[24f2003053@ds.study.iitm.ac.in](mailto:24f2003053@ds.study.iitm.ac.in)**
