@@ -91,6 +91,13 @@ Our product seamlessly integrates with existing enterprise infrastructure, provi
 ---
 
 \_class: custom
+---
+
+## Company Growth Over Time
+
+This slide has a background image.
+
+![bg](https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80)
 
 ## Key Features
 
